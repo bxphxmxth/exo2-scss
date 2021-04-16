@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.bleuF{
+    background-color: rgb(39, 39, 66);
+    display: flex;
+    border: solid 3x red;
+    justify-content: space-between;
+}
+
+.start{
+    border: red solid 3px;
+    width: 15%;
+    margin-left: 200px;
+    color: white;
+    
+}
+
+.signLog{
+    display: flex;
+    text-align: center;
+    border: red solid 3px;
+    width: 50%;
+    justify-content: space-around;
+    color: grey;
+}
+
+.section1{
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.onePage{
+    color: white;
+    border: solid 3px red;
+    font-size: 50px;
+    height: 200px;
+}
+
+.button1{
+
+border: solid 3px red;
+text-align: center;
+color: white;
+
+
+}
+
+.white{
+
+    background-color: white;
+    border: solid 3px red;
+    height: 600px;
+    display: flex;
+}
+
+.txt1{
+    border: green solid 3px;
+    width: max-content;
+    height: max-content;
+    margin-left: 600px;
+    margin-top: 50px;
+
+
+}
+
+.txt1>p:first-child{
+    font-size: 30px;
+}
+
+.img1>img{
+
+border-radius: 100px;
+width: 200px;
+margin-left: 200px;
+    margin-top: 20px;
+    border: red 3px solid;
+
+}
