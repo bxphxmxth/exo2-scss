@@ -56,15 +56,15 @@ color: white;
 
 }
 
-.white{
+.white1{
 
     background-color: white;
     border: solid 3px red;
-    height: 600px;
+    height: 250px;
     display: flex;
 }
 
-.txt1{
+.txt1 {
     border: green solid 3px;
     width: max-content;
     height: max-content;
@@ -87,3 +87,52 @@ margin-left: 200px;
     border: red 3px solid;
 
 }
+
+.img2>img{
+
+    border-radius: 100px;
+    width: 200px;
+    margin-left: 600px;
+    margin-top: 0px;
+    border: blue 3px solid;
+    
+    }
+
+
+    .txt2{
+        border: green solid 3px;
+        width: max-content;
+        height: max-content;
+        margin-left: 1000px;
+        margin-top: 50px;
+    
+    
+    }
+    
+    .txt2>p:first-child{
+        font-size: 30px;
+    }
+
+    .img2{
+        border: blue solid 2px;
+        width: 500px;
+    }
+
+    .noir{
+
+background-color: black;
+height: 100px;
+justify-content: center;
+align-items: center;
+display: flex;
+
+    }
+
+    .copy{
+
+        color: white;
+        width: 5%;
+        border: solid 3px red;
+        align-items: center;
+        justify-content: center;
+    }
